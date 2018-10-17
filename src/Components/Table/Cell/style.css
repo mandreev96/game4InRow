@@ -1,0 +1,34 @@
+.cell {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #faff66;
+    border: 1px solid black;
+    line-height: 50px;
+    box-shadow: 1px 1px;
+    transition: all 1s;
+    margin-bottom: 8px;
+}
+
+.cell:last-child {
+    margin-bottom: 0;
+}
+
+.winner {
+    background-color: #000;
+    border: 5px solid black;
+}
+
+.red {
+    background-color: #ff3b35;
+}
+
+.blue {
+
+    background-color: #3e3eff;
+}
+
+.column:hover .hover{
+    background-color: #faffc9;
+    transition: 0.25s
+}

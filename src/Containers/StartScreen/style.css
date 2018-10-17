@@ -1,0 +1,68 @@
+.link {
+    height: 30px;
+    width: 200px;
+    border: 2px solid #ffd715;
+    border-radius: 50px;
+    background-color: forestgreen;
+    color: white;
+    font-weight: 600;
+    line-height: 30px;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: 0.2s;
+    display: block;
+    text-decoration: none;
+}
+
+.linkBox {
+    margin-top: 15px;
+
+}
+
+
+.link:hover {
+    border: 2px solid #dbb915;
+    background-color: #1d701d;
+}
+
+.startScreen {
+    margin: 80px auto 0;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.startScreen input {
+    width: 250px;
+    height: 22px;
+    outline: none;
+    border: 1px darkgrey solid;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.yourName {
+    margin-top: 8px;
+    font-size: 36px;
+    color: #220e02;
+}
+
+.lookPlayer {
+    height: 30px;
+    width: 200px;
+    border: 2px solid #ffd715;
+    border-radius: 50px;
+    background-color: forestgreen;
+    color: white;
+    font-weight: 600;
+    line-height: 30px;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: 0.2s;
+}
+
+.lookPlayer:hover {
+    border: 2px solid #dbb915;
+    background-color: #1d701d;
+}

@@ -1,0 +1,11 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.column:last-child {
+    margin-right: 0;
+}
